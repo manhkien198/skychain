@@ -135,7 +135,7 @@ const Home = (props: Props) => {
           <Introduce />
           <WhatWeDid />
           <MediaNetwork data={newData} />
-          <Partner />
+          {/* <Partner /> */}
           <PortFolio />
           <Team />
           {/* <News /> */}
