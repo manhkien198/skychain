@@ -98,7 +98,7 @@ export default function PortFolio() {
         <Grid item xs={12} sm={2.5} md={12} lg={3}>
           <Box className={classes.box} onClick={() => toggleTab(3)}>
             <button className={toggle === 3 ? "tabs active-tab" : "tabs"}>
-              DAO / social
+              DAO / Social
             </button>
           </Box>
         </Grid>
@@ -141,7 +141,7 @@ export default function PortFolio() {
           className={classes.container}
           justifyContent="center"
         >
-          {portFolio.slice(0, 6).map((x, id) => (
+          {portFolio.map((x, id) => (
             <Grid item xs={12} sm={6} md={2.4} lg={2.4} key={id}>
               <Box className={classes.badge}>
                 <Image
@@ -164,7 +164,7 @@ export default function PortFolio() {
           className={classes.container}
           justifyContent="center"
         >
-          {portFolio.slice(7, 9).map((x, id) => (
+          {portFolio.map((x, id) => (
             <Grid item xs={12} sm={6} md={2.4} lg={2.4} key={id}>
               <Box className={classes.badge}>
                 <Image
@@ -187,7 +187,7 @@ export default function PortFolio() {
           className={classes.container}
           justifyContent="center"
         >
-          {portFolio.slice(10, 15).map((x, id) => (
+          {portFolio.map((x, id) => (
             <Grid item xs={12} sm={6} md={2.4} lg={2.4} key={id}>
               <Box className={classes.badge}>
                 <Image
