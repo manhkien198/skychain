@@ -8,7 +8,6 @@ export const SectionWrapper = styled("section")(({ theme }) => ({
     margin: theme.spacing(1),
   },
   [theme.breakpoints.only("lg")]: {
-    margin: theme.spacing(20),
     marginBottom: 0,
   },
   boxShadow: "0 4px 10px #ccc",

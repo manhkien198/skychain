@@ -9,7 +9,7 @@ import { useState } from "react";
 import { portFolio } from "../../common/constant";
 const useStyles = makeStyles(() => ({
   root: {
-    padding: "60px 131px 120px",
+    padding: "180px 131px 0",
     [theme.breakpoints.down("md")]: {
       padding: theme.spacing(1),
       marginBottom: 30,

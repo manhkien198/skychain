@@ -1,7 +1,7 @@
 import { styled } from "@mui/material/styles";
 import theme from "../theming/theming";
 export const MediaSection = styled("section")(() => ({
-  padding: "120px 234px",
+  padding: "120px 234px 0 234px",
   [theme.breakpoints.between("xs", "md")]: {
     padding: 0,
   },

@@ -52,7 +52,7 @@ export default function WhatWeDid() {
   return (
     <SectionWrapper id="whatwedid" className={classes.root}>
       <Typography variant="h3" className={classes.titleMain}>
-        What we do
+        WHAT WE DO
       </Typography>
       <Grid
         container

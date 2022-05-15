@@ -56,13 +56,13 @@ export default function Header() {
             <MuiLink>Media network</MuiLink>
           </Link>
         </ListItem>
-        <ListItem
+        {/* <ListItem
           className={router.asPath === "/#partner" ? "active-link" : ""}
         >
           <Link href="#partner" passHref>
             <MuiLink>Partner</MuiLink>
           </Link>
-        </ListItem>
+        </ListItem> */}
         <ListItem
           className={router.asPath === "/#portFolio" ? "active-link" : ""}
         >
