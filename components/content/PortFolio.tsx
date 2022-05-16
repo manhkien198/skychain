@@ -91,7 +91,7 @@ export default function PortFolio() {
         <Grid item xs={12} sm={2.5} md={12} lg={3}>
           <Box className={classes.box} onClick={() => toggleTab(2)}>
             <button className={toggle === 2 ? "tabs active-tab" : "tabs"}>
-              Metaverse
+              Game / Metaverse
             </button>
           </Box>
         </Grid>
