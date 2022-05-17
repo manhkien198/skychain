@@ -21,7 +21,7 @@ const useStyles = makeStyles(() => ({
   },
   subtitle: {
     marginBottom: 30,
-    width: 450,
+    width: 650,
     height: 24,
     margin: "auto",
     textAlign: "center",
