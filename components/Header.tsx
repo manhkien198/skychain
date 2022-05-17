@@ -33,6 +33,7 @@ export default function Header() {
             width={132}
             height={32}
             quality={100}
+            priority
           />
         </Box>
       </Link>

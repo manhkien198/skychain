@@ -136,10 +136,8 @@ const Home = (props: Props) => {
           <Introduce />
           <WhatWeDid />
           <MediaNetwork data={newData} />
-          {/* <Partner /> */}
           <PortFolio />
           <Team />
-          {/* <News /> */}
           <Box
             className={classes.backToTop}
             aria-label="scroll back to top"
