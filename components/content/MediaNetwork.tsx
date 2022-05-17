@@ -138,7 +138,6 @@ export default function MediaNetwork({ data }: MediaProps) {
                     quality={100}
                     layout="fill"
                     objectFit="contain"
-                    priority
                   />
                 </Box>
                 <Divider className={classes.divider} />

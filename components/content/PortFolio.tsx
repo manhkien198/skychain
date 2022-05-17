@@ -127,7 +127,6 @@ export default function PortFolio() {
                   src={x.src}
                   alt={x.alt}
                   quality={100}
-                  priority
                 />
               </Box>
             </Grid>
@@ -151,7 +150,6 @@ export default function PortFolio() {
                   src={x.src}
                   alt={x.alt}
                   quality={100}
-                  priority
                 />
               </Box>
             </Grid>
@@ -174,7 +172,6 @@ export default function PortFolio() {
                   height={40}
                   src={x.src}
                   alt={x.alt}
-                  priority
                   quality={100}
                 />
               </Box>
@@ -199,7 +196,6 @@ export default function PortFolio() {
                   src={x.src}
                   alt={x.alt}
                   quality={100}
-                  priority
                 />
               </Box>
             </Grid>

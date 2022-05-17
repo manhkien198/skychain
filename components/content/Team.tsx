@@ -59,7 +59,6 @@ export default function Team() {
                 src={x.src}
                 alt={x.alt}
                 quality={100}
-                priority
               />
               <Typography variant="h4" className={classes.name}>
                 {x.name}

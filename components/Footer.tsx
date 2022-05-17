@@ -75,7 +75,6 @@ export default function Footer() {
           height={44}
           alt="logo"
           quality={100}
-          priority
         />
       </Box>
       <Typography variant="h3" className={classes.title}>
@@ -90,7 +89,6 @@ export default function Footer() {
               src={Gmail}
               alt="Gmail"
               quality={100}
-              priority
             />
           </Link>
         </Grid>
@@ -108,7 +106,6 @@ export default function Footer() {
             src={Telegram}
             alt="Telegram"
             quality={100}
-            priority
           />
         </Grid>
 
@@ -128,7 +125,6 @@ export default function Footer() {
             src={Twitter}
             alt="Twitter"
             quality={100}
-            priority
           />
         </Grid>
       </Grid>

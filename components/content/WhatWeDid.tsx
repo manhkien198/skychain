@@ -75,7 +75,6 @@ export default function WhatWeDid() {
               src={Invest}
               alt="Invest"
               quality={100}
-              priority
             />
           </Box>
           <Typography variant="h4" className={classes.title}>
@@ -105,7 +104,6 @@ export default function WhatWeDid() {
               src={Connection}
               alt="Connect"
               quality={100}
-              priority
             />
           </Box>
           <Typography variant="h4" className={classes.title}>
@@ -135,7 +133,6 @@ export default function WhatWeDid() {
               src={Product}
               alt="Advise"
               quality={100}
-              priority
             />
           </Box>
           <Typography variant="h4" className={classes.title}>
@@ -167,7 +164,6 @@ export default function WhatWeDid() {
               src={Marketing}
               alt="Promote"
               quality={100}
-              priority
             />
           </Box>
           <Typography variant="h4" className={classes.title}>

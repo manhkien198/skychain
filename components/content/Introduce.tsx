@@ -47,7 +47,6 @@ export default function Introduce() {
           alt="Introduce"
           layout="responsive"
           quality={100}
-          priority
         />
       </Box>
       <Typography variant="subtitle1">
