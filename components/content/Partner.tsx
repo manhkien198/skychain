@@ -110,6 +110,7 @@ export default function Partner() {
                   src={x.src}
                   alt={x.alt}
                   quality={100}
+                  priority
                 />
                 <Typography variant="caption">{x.caption}</Typography>
               </Box>
@@ -133,6 +134,7 @@ export default function Partner() {
                   src={x.src}
                   alt={x.alt}
                   quality={100}
+                  priority
                 />
                 <Typography variant="caption">{x.caption}</Typography>
               </Box>
@@ -156,6 +158,7 @@ export default function Partner() {
                   src={x.src}
                   alt={x.alt}
                   quality={100}
+                  priority
                 />
                 <Typography variant="caption">{x.caption}</Typography>
               </Box>
@@ -180,6 +183,7 @@ export default function Partner() {
                   src={x.src}
                   alt={x.alt}
                   quality={100}
+                  priority
                 />
                 <Typography variant="caption">{x.caption}</Typography>
               </Box>

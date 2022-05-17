@@ -125,12 +125,14 @@ const Home = (props: Props) => {
   }));
   return (
     <Box className={classes.root}>
-      <Seo data={{title:"SkyChain.Capital | MORE THAN AN INVESTOR",
-description:"Emerging into the blockchain era, we proudly claim that we are providing firm values to blockchain projects. We want to invest in all aspects of blockchain, from fields as sophisticated as DeFi to essential as Web3 or entertaining as GameFi and NFTs…As an Asia-based blockchain capital, we are aiming to build a community in which each member can be the masterpiece of their own.",
-url:'https://skychain.capital/',
-
-
-}}/>
+      <Seo
+        data={{
+          title: "SkyChain.Capital | MORE THAN AN INVESTOR",
+          description:
+            "Emerging into the blockchain era, we proudly claim that we are providing firm values to blockchain projects. We want to invest in all aspects of blockchain, from fields as sophisticated as DeFi to essential as Web3 or entertaining as GameFi and NFTs…As an Asia-based blockchain capital, we are aiming to build a community in which each member can be the masterpiece of their own.",
+          url: "https://skychain.capital/",
+        }}
+      />
       <Box className={classes.body}>
         <Header />
         <Main>
@@ -148,7 +150,7 @@ url:'https://skychain.capital/',
             onClick={handleClick}
           >
             <Link href="#" passHref>
-              <Image src={BackToTop} alt="Back To Top" quality={100} />
+              <Image src={BackToTop} alt="Back To Top" quality={100} priority />
             </Link>
           </Box>
         </Main>

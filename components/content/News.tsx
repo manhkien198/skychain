@@ -78,6 +78,7 @@ export default function News() {
               alt="MetaLunch"
               layout="responsive"
               quality={100}
+              priority
             />
             <Typography className={classes.des} variant="h4">
               MetaLaunch powered asva labs
@@ -101,6 +102,7 @@ export default function News() {
                 alt="MetaLunch"
                 layout="responsive"
                 quality={100}
+                priority
               />
             </Box>
             <Typography className={classes.des} variant="h4">
@@ -123,6 +125,7 @@ export default function News() {
               alt="MetaLunch"
               layout="responsive"
               quality={100}
+              priority
             />
             <Typography className={classes.des} variant="h4">
               MetaLaunch powered asva labs
